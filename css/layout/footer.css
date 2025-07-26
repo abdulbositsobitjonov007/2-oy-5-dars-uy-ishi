@@ -1,0 +1,32 @@
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #424141;
+    align-items: center;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer a{
+    color: white;
+}
+
+.footer-part{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-part p{
+    color: white;
+}
+
+.footer-part1{
+    gap: 30px;
+    display: flex;
+}

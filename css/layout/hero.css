@@ -1,0 +1,136 @@
+#hero{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+}
+
+.hero-title{
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.hero-card-title{
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    flex-wrap: wrap;
+ 
+ 
+}
+
+
+
+.hero-card1{
+    height: 80px;
+    padding: 30px 90px 30px 30px;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #A8A8A8;
+    border-radius: 8px;
+
+}
+
+.hero-card2{
+    height: 80px;
+    padding: 30px 40px 30px 30px;
+    max-width: 270px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #A8A8A8;
+    border-radius: 8px; }
+    
+ 
+  .hero-card3{
+      height: 80px;
+      padding: 30px 40px 30px 30px;
+      max-width: 270px;
+    width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border: 2px solid #A8A8A8;
+      border-radius: 8px; 
+    }
+
+          .hero-card4{
+              height: 80px;
+              padding: 30px 40px 30px 30px;
+              max-width: 270px;
+            width: 100%;
+              display: flex;
+              align-items: center;
+              gap: 20px;
+              border: 2px solid #A8A8A8;
+              border-radius: 8px;    
+             }
+
+                         .hero-card5{
+                             height: 80px;
+                             padding: 30px 90px 30px 30px;
+                             max-width: 270px;
+                            width: 100%;
+                             display: flex;
+                             align-items: center;
+                             gap: 20px;
+                             border: 2px solid #A8A8A8;
+                             border-radius: 8px;           
+                              }
+
+.hero-cards{
+   padding-top: 58px; width: 100%;
+   display: grid;
+   grid-template-columns: repeat(5, auto);
+     justify-content: space-between;
+}
+
+@media (max-width:380px) {
+    .hero-title{
+        font-size: 24px;
+        font-weight: 500;
+        padding-left: 20px;
+        margin-bottom: -25px;
+    }
+
+    .hero-cards{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+   
+    .hero-card1{
+    padding-right: 120px;
+    width: 100%;
+    max-width: 316px;
+    }
+
+    .hero-card2{
+        padding-right: 83px;
+        width: 100%;
+        max-width: 315px;
+    }
+
+    .hero-card3{
+        padding-right: 80px;
+        width: 100%;
+        max-width: 316px;
+    }
+
+    .hero-card4{
+        padding-right: 80px;
+        width: 100%;
+        max-width: 316px;
+    }
+
+    .hero-card5{
+        padding-right: 130px;
+        width: 100%;
+        max-width: 316px;
+    }
+}

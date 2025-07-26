@@ -1,0 +1,51 @@
+#hero-home{
+    background-image: url(/assets/images/Rectangle\ 5.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 432px;
+    padding-bottom: 186px;
+    width: 100%;
+}
+
+.hero-home-title{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-home-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+@media (max-width:380px) {
+   
+   #hero-home{
+    padding-top: 265px;
+    padding-bottom: 20px;
+    width: 100%;
+   }
+
+    .hero-home-title {
+            font-size: 32px;
+            white-space: wrap;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .hero-home-subtitle{
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .hero-home-btn{
+            margin-left: 20px;
+            font-size: 16px;
+        }
+}

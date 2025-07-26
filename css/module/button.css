@@ -1,0 +1,45 @@
+.hero-home-btn{
+    padding: 21px 36px 21px 36px;
+    border: none;
+    border-radius: 8px;
+    background-color: #27AE60;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-questions-btn{
+    font-size: 22px;
+    font-weight: 500;
+    padding: 21px 36px 21px 36px;
+    border: none;
+    border-radius: 8px;
+    background-color: #27AE60;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-btn{
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+}
+
+@media (max-width:380px) {
+    footer{
+        max-width: 380px;
+        width: 100%;
+        padding-top: -20px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer p{
+        display: none;
+
+    }
+}

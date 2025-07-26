@@ -1,0 +1,133 @@
+#hero-materials{
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.hero-materials-title{
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.hero-materials-card{
+    background-image: url(/assets/images/Rectangle\ 10.svg);
+    background-repeat: no-repeat;
+    max-width: 340px;
+    width: 100%;
+    height: 524px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero-materials-card:hover{
+    transform: translateY(-30px);
+}
+
+.hero-materials-card1{
+    background-image: url(/assets/images/png-klev-club-byz9-p-gravii-png-15.png);
+    background-repeat: no-repeat;
+    max-width: 340px;
+    width: 100%;
+    height: 524px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.hero-materials-card1:hover {
+    transform: translateY(-30px);
+}
+
+.hero-materials-card2{
+    background-image: url(/assets/images/5b50bb005a818675054c53c6c8b7c5e9d8e2db27_1619915133.jpg);
+    background-repeat: no-repeat;
+    max-width: 340px;
+    width: 100%;
+    height: 524px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.hero-materials-card2:hover {
+    transform: translateY(-30px);
+}
+
+.hero-materials-card3{
+    background-image: url(/assets/images/i\ \(8\).webp);
+    background-repeat: no-repeat;
+    max-width: 340px;
+    width: 100%;
+    height: 524px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.hero-materials-card3:hover {
+    transform: translateY(-30px);
+}
+
+.hero-materials-name{
+  position: absolute;
+bottom: 20px;
+left: 34px;
+font-size: 40px;
+font-weight: 700;
+color: white;
+}
+
+.hero-materials-cards{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+   
+}
+
+@media (max-width:380px) {
+    .hero-materials-title{
+        font-size: 24px;
+        font-weight: 500;
+        padding-left: 20px;
+    }
+
+    .hero-materials-cards{
+     
+      display: flex;
+      flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    }
+
+    .hero-materials-card{
+        max-width: 340px;
+        width: 100%;
+        height: 200px;
+        border-radius: 8px;
+    }
+
+        .hero-materials-card1 {
+            max-width: 340px;
+            width: 100%;
+            height: 200px;
+        }
+
+                .hero-materials-card2 {
+                    max-width: 340px;
+                    width: 100%;
+                    height: 200px;   }
+
+                                        .hero-materials-card3 {
+                                            max-width: 340px;
+                                            width: 100%;
+                                            height: 200px;   }
+    
+    .hero-materials-name{
+        font-size: 24px;
+        font-weight: 700;
+    }                                        
+}
+
